@@ -1,0 +1,12 @@
+[package]
+name = "rust-wasm-filter-with-cargo"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "rustwasmfilter"
+crate-type = ["cdylib"]
+
+[dependencies]
+proxy-wasm = "0.1.4"
+primes = "0.3.0"
